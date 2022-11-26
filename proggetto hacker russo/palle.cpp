@@ -18,6 +18,6 @@ scanf("%d", &b);
 //Sezione elaborazione
 c = sommaInteri(a,b);
 //Sezione presentazione degli input
-printf("La somma e:%d",c)
+printf("La somma e:%d",c);
 return 0;
 }
