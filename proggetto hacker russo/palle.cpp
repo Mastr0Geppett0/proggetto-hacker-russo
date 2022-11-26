@@ -1,23 +1,25 @@
-#include <iostream>
+#include <iostream
 #include <string>
 using namespace std;
-// made by jeff rossi and pietro lavecchia
-int sommaInteri(int x, int y){
+// made by jeff rossi and pietro lavecchia.
+int sommaInteri(int x, int y) //Parametri formali (passati by Value).
+{ 
     int somma;
     somma = x+y;
 }
-int main(int argc, char** argv) {
-//Sezione dichiarazioni variabili e costanti
-int a,b,c;
+int main(int argc, char** argv) 
+{
+//Sezione dichiarazioni variabili e costanti.
+    int a,b,c;
 
-//Sezione acquisizione input palle
-printf("\ninserisci il valore di a: ");
-scanf("%d", &a);
-printf("\ninserisci il valore di b: ");
-scanf("%d", &b);
-//Sezione elaborazione
-c = sommaInteri(a,b);
-//Sezione presentazione degli input
-printf("La somma e:%d",c);
-return 0;
+//Sezione acquisizione input palle.
+    printf("\ninserisci il valore di a: ");
+    scanf("%d", &a);
+    printf("\ninserisci il valore di b: ");
+    scanf("%d", &b);
+//Sezione elaborazione.
+    c = sommaInteri(a,b);
+//Sezione presentazione degli input.
+    printf("La somma e:%d",c);
+    return 0;
 }
