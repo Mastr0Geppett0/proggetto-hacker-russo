@@ -10,7 +10,7 @@ int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tip
 	quindi il suo SCOPE e solo dentro la funzione*/
 }
 void scambista(int x, int y,int z){
-	z  x;
+	z = x;
 	x = y;
 	y = z;
 	return ;
