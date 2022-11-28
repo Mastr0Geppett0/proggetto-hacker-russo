@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 //dichiarazioni funzioni
-int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tipo passati by value.
+int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tipo passati by value
 	int somma;
 	somma = x+y;
 	return somma;// la varibile locale
@@ -10,9 +10,9 @@ int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tip
 	quindi il suo SCOPE e solo dentro la funzione*/
 }
 void scambista(int x, int y,int z){
-	z=x;
-	y=x;
-	x = z;
+	z  x;
+	x = y;
+	y = z;
 	return ;
 }
 int main(int argc, char **argv){
