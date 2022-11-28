@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 //dichiarazioni funzioni
-int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tipo passati by value
+int somma_Interi(int x, int y){//essi sono parametri formali mettiamo nome e tipo passati by value.
 	int somma;
 	somma = x+y;
 	return somma;// la varibile locale
