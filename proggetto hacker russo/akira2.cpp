@@ -5,14 +5,17 @@ using namespace std;
 int somma_Interi(int x, int y){
 
 	int somma;
+	
 	somma = x+y;
 	return somma;
 
 }
 void scambista(int x, int y,int z){
+	
 	z = x;
 	x = y;
 	y = z;
+	
 	printf("\nil valore di a %d",x);
 	printf("\nil valore di b %d",y);
 	printf("\nl'indirizzo di x %x",&x);
